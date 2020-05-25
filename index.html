@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Beauty & the Beast</title>
+
+		<link rel="stylesheet" href="./main.css" />
+		<script src="./jQuery/jQuery3.5.js"></script>
+	</head>
+	<body>
+		<div class="background"></div>
+		<div class="heading">
+			<img src="./images/logo.png" alt="logo" />
+		</div>
+		<div class="wallpaper"></div>
+		<input
+			class="slider"
+			type="range"
+			value="0"
+			min="0"
+			max="100"
+			onChange="rangeSlide(this.value)"
+			onmousemove="rangeSlide(this.value)"
+		/>
+		<footer><p>SOMU</p></footer>
+		<script src="./app.js"></script>
+	</body>
+</html>
